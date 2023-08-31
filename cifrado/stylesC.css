@@ -53,7 +53,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('ee2e.jpg'); /* Cambia 'background-image.jpg' por la ruta de tu imagen de fondo */
+  background-image: url('https://www.cryptopolitan.com/wp-content/uploads/2023/02/ee2e.jpg'); /* Cambia 'background-image.jpg' por la ruta de tu imagen de fondo */
   background-size: cover;
   background-position: center;
 }  
