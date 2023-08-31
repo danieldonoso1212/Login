@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Encryption - Affine Cipher</title>
+  <link rel="stylesheet" type="text/css" href="stylesC.css">
+</head>
+<body>
+  <h1>Encryption - Affine Cipher</h1>
+
+  <form id="encrypt-form" action="#" method="post">
+    <label for="encrypt-text">Enter text to encrypt:</label>
+    <input type="text" id="encrypt-text" name="text" placeholder="Enter text to encrypt" required>
+    <label for="key-a">Enter value for key a:</label>
+    <input type="number" id="key-a" name="key_a" placeholder="Enter value for key a" required>
+    <label for="key-b">Enter value for key b:</label>
+    <input type="number" id="key-b" name="key_b" placeholder="Enter value for key b" required>
+    <input type="submit" value="Encrypt">
+  </form>
+
+  <br>
+   
+  <div id="encrypted-result">
+    <!-- Encrypted result will be displayed here -->
+  </div>
+
+  <div id="frequency-analysis">
+    <!-- Frequency analysis will be displayed here -->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="cifrado.js"></script>
+</body>
+</html>
