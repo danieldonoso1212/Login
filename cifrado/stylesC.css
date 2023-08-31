@@ -24,7 +24,8 @@ form {
 form label,
 form input[type="number"],
 form input[type="text"],
-form input[type="submit"] {
+form input[type="submit"],
+form textarea {
   display: block;
   margin-bottom: 10px;
   width: 100%;
@@ -38,22 +39,13 @@ form input[type="submit"] {
   cursor: pointer;
 }
 
-
 #frequency-analysis {
   width: 80%;
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
   background-color: #1c3177;
-  border: 1px solid #ddd; 
+  border: 1px solid #ddd;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-image: url('https://www.cryptopolitan.com/wp-content/uploads/2023/02/ee2e.jpg'); /* Cambia 'background-image.jpg' por la ruta de tu imagen de fondo */
-  background-size: cover;
-  background-position: center;
-}  
