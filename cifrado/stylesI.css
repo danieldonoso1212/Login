@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+.container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#error-message {
+  color: red;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://www.cryptopolitan.com/wp-content/uploads/2023/02/ee2e.jpg');
+  /* Cambia 'background-image.jpg' por la ruta de tu imagen de fondo */
+  background-size: cover;
+  background-position: center;
+}
